@@ -1,0 +1,119 @@
+body {
+    background-color: #8ed2fc;
+
+    margin: 0 auto;
+}
+
+header h2 {
+
+    text-align: center;
+    color: black
+}
+
+.section-img {
+
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+
+
+}
+
+.section-button div {
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #e4e1e1;
+}
+
+button:active {
+    background-color: #c2bebe;
+}
+
+.section-apps {
+
+    display: flex;
+    gap: 20px;
+    margin: 70px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.comments {
+
+    background-color: white;
+    flex-basis: 40%;
+    flex: 0.75;
+
+
+
+    height: 350px;
+}
+
+.comments h2 {
+
+    text-align: center;
+
+}
+
+.comments ul {
+
+    margin-right: 70px;
+    font-size: 14px;
+
+
+
+}
+
+.comments ul li {
+
+    margin: 5px;
+}
+
+
+.video {
+
+    flex-basis: 60%;
+    flex: 1.25;
+}
+
+
+
+footer {
+
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: white;
+
+}
+
+footer a {
+
+    padding: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .comments ul {
+        font-size: 6px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+}
